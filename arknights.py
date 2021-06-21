@@ -30,9 +30,6 @@ def saveComputer():
 def screenshot():
     screen()
     saveComputer()
-#def screenshot():
-#    os.system(f"adb shell screencap -p /sdcard/{filename}")
-#    os.system(f"adb pull /sdcard/{filename}")
 
 #初始化连接adb
 def init():
